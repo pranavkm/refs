@@ -1,0 +1,44 @@
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
+
+namespace Microsoft.AspNetCore.Server.IIS.Core
+{
+	public class IISServerAuthenticationHandler : IAuthenticationHandler
+	{
+		internal AuthenticationScheme Scheme
+		{
+			[CompilerGenerated]
+			get
+			{
+				throw null;
+			}
+		}
+
+		public Task<AuthenticateResult> AuthenticateAsync()
+		{
+			throw null;
+		}
+
+		public Task ChallengeAsync(AuthenticationProperties properties)
+		{
+			throw null;
+		}
+
+		public Task ForbidAsync(AuthenticationProperties properties)
+		{
+			throw null;
+		}
+
+		public Task InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+		{
+			throw null;
+		}
+
+		public IISServerAuthenticationHandler()
+		{
+			throw null;
+		}
+	}
+}

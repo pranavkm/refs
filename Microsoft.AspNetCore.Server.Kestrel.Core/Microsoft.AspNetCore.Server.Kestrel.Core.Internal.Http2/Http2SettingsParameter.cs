@@ -1,0 +1,12 @@
+namespace Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2
+{
+	internal enum Http2SettingsParameter : ushort
+	{
+		SETTINGS_HEADER_TABLE_SIZE = 1,
+		SETTINGS_ENABLE_PUSH,
+		SETTINGS_MAX_CONCURRENT_STREAMS,
+		SETTINGS_INITIAL_WINDOW_SIZE,
+		SETTINGS_MAX_FRAME_SIZE,
+		SETTINGS_MAX_HEADER_LIST_SIZE
+	}
+}
