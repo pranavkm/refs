@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

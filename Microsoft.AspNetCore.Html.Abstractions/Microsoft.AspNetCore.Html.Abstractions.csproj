@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Microsoft.AspNetCore.Html.Abstractions</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

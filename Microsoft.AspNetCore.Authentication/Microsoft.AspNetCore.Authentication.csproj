@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>Microsoft.AspNetCore.Authentication</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Authentication.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.DataProtection.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

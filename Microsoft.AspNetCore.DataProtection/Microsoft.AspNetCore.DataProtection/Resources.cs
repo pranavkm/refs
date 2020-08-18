@@ -1,0 +1,337 @@
+using System.Globalization;
+using System.Resources;
+using System.Runtime.CompilerServices;
+
+namespace Microsoft.AspNetCore.DataProtection
+{
+	internal static class Resources
+	{
+		internal static ResourceManager ResourceManager
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		internal static CultureInfo Culture
+		{
+			[CompilerGenerated]
+			get
+			{
+				throw null;
+			}
+			[CompilerGenerated]
+			set
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>An error occurred during a cryptographic operation.</summary>
+		internal static string CryptCommon_GenericError
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The provided buffer is of length {0} byte(s). It must instead be exactly {1} byte(s) in length.</summary>
+		internal static string Common_BufferIncorrectlySized
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The payload was invalid.</summary>
+		internal static string CryptCommon_PayloadInvalid
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>Property {0} cannot be null or empty.</summary>
+		internal static string Common_PropertyCannotBeNullOrEmpty
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The provided payload could not be decrypted. Refer to the inner exception for more information.</summary>
+		internal static string Common_DecryptionFailed
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>An error occurred while trying to encrypt the provided data. Refer to the inner exception for more information.</summary>
+		internal static string Common_EncryptionFailed
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The key {0:B} was not found in the key ring.</summary>
+		internal static string Common_KeyNotFound
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The key {0:B} has been revoked.</summary>
+		internal static string Common_KeyRevoked
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The provided payload cannot be decrypted because it was not protected with this protection provider.</summary>
+		internal static string ProtectionProvider_BadMagicHeader
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The provided payload cannot be decrypted because it was protected with a newer version of the protection provider.</summary>
+		internal static string ProtectionProvider_BadVersion
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>Value must be non-negative.</summary>
+		internal static string Common_ValueMustBeNonNegative
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The type '{1}' is not assignable to '{0}'.</summary>
+		internal static string TypeExtensions_BadCast
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The new key lifetime must be at least one week.</summary>
+		internal static string KeyManagementOptions_MinNewKeyLifetimeViolated
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The key {0:B} already exists in the keyring.</summary>
+		internal static string XmlKeyManager_DuplicateKey
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>Argument cannot be null or empty.</summary>
+		internal static string Common_ArgumentCannotBeNullOrEmpty
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>Property {0} must have a non-negative value.</summary>
+		internal static string Common_PropertyMustBeNonNegative
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>GCM algorithms require the Windows platform.</summary>
+		internal static string Platform_WindowsRequiredForGcm
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>A certificate with the thumbprint '{0}' could not be found.</summary>
+		internal static string CertificateXmlEncryptor_CertificateNotFound
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>Decrypting EncryptedXml-encapsulated payloads is not yet supported on Core CLR.</summary>
+		internal static string EncryptedXmlDecryptor_DoesNotWorkOnCoreClr
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The symmetric algorithm block size of {0} bits is invalid. The block size must be between 64 and 2048 bits, inclusive, and it must be a multiple of 8 bits.</summary>
+		internal static string AlgorithmAssert_BadBlockSize
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The validation algorithm digest size of {0} bits is invalid. The digest size must be between 128 and 2048 bits, inclusive, and it must be a multiple of 8 bits.</summary>
+		internal static string AlgorithmAssert_BadDigestSize
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The symmetric algorithm key size of {0} bits is invalid. The key size must be between 128 and 2048 bits, inclusive, and it must be a multiple of 8 bits.</summary>
+		internal static string AlgorithmAssert_BadKeySize
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The key ring does not contain a valid default protection key. The data protection system cannot create a new key because auto-generation of keys is disabled.</summary>
+		internal static string KeyRingProvider_NoDefaultKey_AutoGenerateDisabled
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>{0} must not be negative</summary>
+		internal static string LifetimeMustNotBeNegative
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>The '{0}' instance could not be found. When an '{1}' instance is set, a corresponding '{0}' instance must also be set.</summary>
+		internal static string XmlKeyManager_IXmlRepositoryNotFound
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		/// <summary>Storing keys in a directory '{path}' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.</summary>
+		internal static string FileSystem_EphemeralKeysLocationInContainer
+		{
+			get
+			{
+				throw null;
+			}
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		internal static string GetResourceString(string resourceKey, string defaultValue = null)
+		{
+			throw null;
+		}
+
+		/// <summary>The provided buffer is of length {0} byte(s). It must instead be exactly {1} byte(s) in length.</summary>
+		internal static string FormatCommon_BufferIncorrectlySized(object p0, object p1)
+		{
+			throw null;
+		}
+
+		/// <summary>Property {0} cannot be null or empty.</summary>
+		internal static string FormatCommon_PropertyCannotBeNullOrEmpty(object p0)
+		{
+			throw null;
+		}
+
+		/// <summary>The type '{1}' is not assignable to '{0}'.</summary>
+		internal static string FormatTypeExtensions_BadCast(object p0, object p1)
+		{
+			throw null;
+		}
+
+		/// <summary>Property {0} must have a non-negative value.</summary>
+		internal static string FormatCommon_PropertyMustBeNonNegative(object p0)
+		{
+			throw null;
+		}
+
+		/// <summary>A certificate with the thumbprint '{0}' could not be found.</summary>
+		internal static string FormatCertificateXmlEncryptor_CertificateNotFound(object p0)
+		{
+			throw null;
+		}
+
+		/// <summary>The symmetric algorithm block size of {0} bits is invalid. The block size must be between 64 and 2048 bits, inclusive, and it must be a multiple of 8 bits.</summary>
+		internal static string FormatAlgorithmAssert_BadBlockSize(object p0)
+		{
+			throw null;
+		}
+
+		/// <summary>The validation algorithm digest size of {0} bits is invalid. The digest size must be between 128 and 2048 bits, inclusive, and it must be a multiple of 8 bits.</summary>
+		internal static string FormatAlgorithmAssert_BadDigestSize(object p0)
+		{
+			throw null;
+		}
+
+		/// <summary>The symmetric algorithm key size of {0} bits is invalid. The key size must be between 128 and 2048 bits, inclusive, and it must be a multiple of 8 bits.</summary>
+		internal static string FormatAlgorithmAssert_BadKeySize(object p0)
+		{
+			throw null;
+		}
+
+		/// <summary>{0} must not be negative</summary>
+		internal static string FormatLifetimeMustNotBeNegative(object p0)
+		{
+			throw null;
+		}
+
+		/// <summary>The '{0}' instance could not be found. When an '{1}' instance is set, a corresponding '{0}' instance must also be set.</summary>
+		internal static string FormatXmlKeyManager_IXmlRepositoryNotFound(object p0, object p1)
+		{
+			throw null;
+		}
+
+		/// <summary>Storing keys in a directory '{path}' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.</summary>
+		internal static string FormatFileSystem_EphemeralKeysLocationInContainer(object path)
+		{
+			throw null;
+		}
+	}
+}

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>Microsoft.AspNetCore.Hosting</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

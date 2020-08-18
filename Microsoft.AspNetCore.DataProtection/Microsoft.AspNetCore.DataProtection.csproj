@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>Microsoft.AspNetCore.DataProtection</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.DataProtection.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Cryptography.Internal">
+      <HintPath>D:\temp\aspnetcore\artifacts\obj\TargetingPack.Layout\Debug\packs\Microsoft.AspNetCore.App.Ref\5.0.0-dev\ref\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0-preview.8.20407.11\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
